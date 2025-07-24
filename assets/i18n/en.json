@@ -1,0 +1,42 @@
+{
+  "HEADER_MENU":{
+    "ALT_LOGO": "G6 Logo",
+    "HOME": "Home",
+    "QUEM_SOMOS": "About Us",
+    "SERVICOS_E_PORTFOLIO": "Services and Portfolio",
+    "CONTATO": "Contact"
+  },
+  "FOOTER":{
+    "TODOS_OS_DIREITOS_RESERVADOS": "All rights reserved."
+  },
+  "QUEM_SOMOS":{
+    "TITULO":"Our History",
+    "PARAGRAFO_1": "\"There are no limits when you work with love and creativity,\" this is how we start every new day here at G•Seis Publicidade.",
+    "PARAGRAFO_2": "In 2011 we began our history and with every new client, with every change in the market and each new team member, we matured, strengthening our position and the G•Seis Publicidade methodology of working with communication and generating results."
+  },
+  "SERVICOS_E_PORTFOLIO":{
+    "INFORMACAO_1":{
+      "ALT_IMAGEM":"Social Network",
+      "TITULO_BRILHANTE":"251",
+      "SUBTITULO":"monthly accounts"
+    },
+    "INFORMACAO_2":{
+      "ALT_IMAGEM":"Impressions",
+      "TITULO_BRILHANTE":"+ 40 millions",
+      "SUBTITULO":"monthly impressions"
+    },
+    "INFORMACAO_3":{
+      "ALT_IMAGEM":"Leads",
+      "TITULO_BRILHANTE":"+ 30k",
+      "SUBTITULO":"leads sent monthly"
+    },
+    "BOTAO_VER_PORTFOLIO_COMPLETO":"SEE FULL"
+  },
+  "CONTATO":{
+    "TEXTO_CLICAR":"Just Click!",
+    "TEXTO_AZUL_SEMPRE_APARECE":"Contact us",
+    "TEXTO_AZUL_SOME_AO_PASSAR_MOUSE":"",
+    "TEXTO_BRANCO_SOME_AO_PASSAR_O_MOUSE":"",
+    "TEXTO_BRANCO_APARECE_AO_PASSAR_MOUSE":" by"
+  }
+}

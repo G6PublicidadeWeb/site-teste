@@ -1,0 +1,43 @@
+{
+  "HEADER_MENU":{
+    "ALT_LOGO": "Logomarca da G6",
+    "HOME": "Home",
+    "QUEM_SOMOS": "Quem somos",
+    "SERVICOS_E_PORTFOLIO": "Serviços e Portfolio",
+    "CONTATO": "Contato"
+  },
+  "FOOTER":{
+    "TODOS_OS_DIREITOS_RESERVADOS": "Todos os direitos reservados."
+  },
+  "QUEM_SOMOS":{
+    "TITULO":"Nossa História",
+    "PARAGRAFO_1": "\"Não existem limites quando se trabalha com amor e criatividade\", é assim que iniciamos cada novo dia aqui na G•Seis Publicidade.",
+    "PARAGRAFO_2": "Em 2011 iniciamos nossa história e a cada novo cliente, a cada mudança do mercado e cada novo integrante do nosso time, fomos amadurecendo, fortalecendo nosso posicionamento e a metodologia G•Seis Publicidade de trabalhar com comunicação e gerar resultados."
+  },
+  "SERVICOS_E_PORTFOLIO":{
+    "INFORMACAO_1":{
+      "ALT_IMAGEM":"Redes Sociais",
+      "TITULO_BRILHANTE":"251",
+      "SUBTITULO":"contas mensais"
+    },
+    "INFORMACAO_2":{
+      "ALT_IMAGEM":"Impressões",
+      "TITULO_BRILHANTE":"+ de 40 milhões",
+      "SUBTITULO":"de impressões por mês"
+    },
+    "INFORMACAO_3":{
+      "ALT_IMAGEM":"Leads",
+      "TITULO_BRILHANTE":"+ de 30k",
+      "SUBTITULO":"leads entregues por mês"
+    },
+    "BOTAO_VER_PORTFOLIO_COMPLETO":"VER PORTFOLIO COMPLETO"
+  },
+
+  "CONTATO":{
+    "TEXTO_CLICAR":"É só clicar!",
+    "TEXTO_AZUL_SEMPRE_APARECE":"Entre ",
+    "TEXTO_AZUL_SOME_AO_PASSAR_MOUSE":"em",
+    "TEXTO_BRANCO_SOME_AO_PASSAR_O_MOUSE":" contato",
+    "TEXTO_BRANCO_APARECE_AO_PASSAR_MOUSE":"pelo"
+  }
+}

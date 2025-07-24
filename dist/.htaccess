@@ -1,0 +1,33 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+
+# remove www and turn on https in same rule
+RewriteCond %{HTTP_HOST} ^www\. [NC,OR]
+RewriteCond %{HTTPS} !on
+RewriteCond %{HTTP_HOST} ^(?:www\.)?(.+)$ [NC]
+RewriteRule ^(.*?)/?$ https://%1/$1/ [R=301,L,NE]
+
+# To externally redirect /dir/file.php to /dir/file
+RewriteCond %{THE_REQUEST} \s/+(.+?)\.php[\s?] [NC]
+RewriteRule ^ /%1/ [R=301,NE,L]
+
+# To internally rewrite /dir/file to /dir/file.php
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{DOCUMENT_ROOT}/$1.php -f
+RewriteRule ^([^.]+?)/?$ $1.php [L]
+</IfModule>
+
+<FilesMatch "\.(png|jp?g|gif|ico|mp4|wmv|mov|mpeg|css|map|woff?|eot|svg|ttf|js|json|pdf|csv)">
+    ExpiresActive on
+    ExpiresDefault "access plus 1 day"
+</FilesMatch>
+
+RewriteEngine On
+# If an existing asset or directory is requested go to it as it is
+RewriteCond %{DOCUMENT_ROOT}%{REQUEST_URI} -f [OR]
+RewriteCond %{DOCUMENT_ROOT}%{REQUEST_URI} -d
+RewriteRule ^ - [L]
+
+# If the requested resource doesn't exist, use index.html
+RewriteRule ^ /index.html

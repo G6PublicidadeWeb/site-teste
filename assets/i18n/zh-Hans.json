@@ -1,0 +1,42 @@
+{
+  "HEADER_MENU":{
+    "ALT_LOGO": "商标",
+    "HOME": "主页",
+    "QUEM_SOMOS": "关于我们",
+    "SERVICOS_E_PORTFOLIO": "服务与广告展集",
+    "CONTATO": "联系方式"
+  },
+  "FOOTER":{
+    "TODOS_OS_DIREITOS_RESERVADOS": "All rights reserved."
+  },
+  "QUEM_SOMOS":{
+    "TITULO":"公司简介",
+    "PARAGRAFO_1": "“爱与创造力无界限”，这就是我们G•6广告公司从成立开始所遵循的工作理念。",
+    "PARAGRAFO_2": "G•6创立于2011年，随着每位新客户的增加，市场的每一次变化和我们团队的每位新成员的共同努力，奋进，我们日趋成熟，同时加强了我们的定位，通过我们 G•6 广告公司的工作方式与客户进行有效的沟通并取得更好的业绩。"
+  },
+  "SERVICOS_E_PORTFOLIO":{
+    "INFORMACAO_1":{
+      "ALT_IMAGEM":"每月251个账户",
+      "TITULO_BRILHANTE":"每月251个账户",
+      "SUBTITULO":""
+    },
+    "INFORMACAO_2":{
+      "ALT_IMAGEM":"每月超过4000万广告阅览",
+      "TITULO_BRILHANTE":"每月超过4000万广告阅览",
+      "SUBTITULO":""
+    },
+    "INFORMACAO_3":{
+      "ALT_IMAGEM":"每月超过3万leads注册",
+      "TITULO_BRILHANTE":"每月超过3万leads注册",
+      "SUBTITULO":""
+    },
+    "BOTAO_VER_PORTFOLIO_COMPLETO":"查看详细广告展集"
+  },
+  "CONTATO":{
+    "TEXTO_CLICAR":"点击",
+    "TEXTO_AZUL_SEMPRE_APARECE":"进入联系主页",
+    "TEXTO_AZUL_SOME_AO_PASSAR_MOUSE":"",
+    "TEXTO_BRANCO_SOME_AO_PASSAR_O_MOUSE":"",
+    "TEXTO_BRANCO_APARECE_AO_PASSAR_MOUSE":""
+  }
+}
