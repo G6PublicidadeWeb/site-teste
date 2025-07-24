@@ -1,0 +1,48 @@
+{
+  "HEADER_MENU":{
+    "ALT_LOGO": "商标",
+    "HOME": "主页",
+    "QUEM_SOMOS": "关于我们",
+    "SERVICOS_E_PORTFOLIO": "服务与广告展集",
+    "CONTATO": "联系方式"
+  },
+  "FOOTER":{
+    "TODOS_OS_DIREITOS_RESERVADOS": "All rights reserved."
+  },
+  "QUEM_SOMOS":{
+    "TITULO":"激发灵感 · 连接世界 · 历久弥新",
+    "PARAGRAFO_1":"“在 G•Seis Publicidade，我们始终相信，真正有效的传播，不只是吸引眼球，更要激发行动、传递意义、塑造认知。我们致力于打造具有灵魂、清晰定位、和持久影响力的品牌。",
+    "PARAGRAFO_2":"我们是一家成立于2011年的巴西传媒公司，专注于数字化战略，擅长将创意洞察与高效传播相结合，跨越文化与媒介边界，为品牌打造出色的全球影响力。",
+    "PARAGRAFO_3":"2023年，G•Seis 成为首家在中国设立正式办公室的 100% 巴西本土数字营销机构，我们致力于搭建巴西及全球品牌与亚洲市场之间的桥梁。整合Instagram、LinkedIn 、小红书、微信、微博等社交平台的本地化表达，打通不同媒介与文化之间的沟通壁垒，实现真正意义上的“本地连接，全球传播”。",
+    "PARAGRAFO_4":"在当今时代，消费者不再只关注产品本身，他们在寻找意义，归属感以及认同感。我们帮助品牌把“品牌使命”转化为“数字表达”，通过有温度的叙事，建立情感连接，引发共鸣与向往。",
+    "PARAGRAFO_5":"我们的始终以“创造影响力”为核心，以三大核心优势著称: 战略引导——基于数据与市场趋势制定高效传播路径 文化共情——深谙中巴文化差异，构建本土化沟通桥梁 情感驱动——用情感联结用户，以故事激发信任",
+    "PARAGRAFO_6":"了解我们的故事：从巴西南部的创意团队，到跨境数字营销先锋 ：<a href=\"https://online.fliphtml5.com/kpsan/iapa/#p=44\" target=\"_blank\">https://online.fliphtml5.com/kpsan/iapa/#p=44</a> ",
+    "PARAGRAFO_7":"G•Seis 拓展中国市场也被《LIDE 商业杂志》重点报道：<a href=\"https://ecrie70.com.br/sistema/conteudos/arquivo/a_66_0_1_29032023172245.pdf\" target=\"_blank\" >https://ecrie70.com.br/sistema/conteudos/arquivo/a_66_0_1_29032023172245.pdf</a>",
+    "PARAGRAFO_8":"我们的目标不只是推广产品，更是打造品牌影响力；我们传递的不仅是信息，更是身份、愿景与全球化存在感。"
+  },
+  "SERVICOS_E_PORTFOLIO":{
+    "INFORMACAO_1":{
+      "ALT_IMAGEM":"每月251个账户",
+      "TITULO_BRILHANTE":"每月251个账户",
+      "SUBTITULO":""
+    },
+    "INFORMACAO_2":{
+      "ALT_IMAGEM":"每月超过4000万广告阅览",
+      "TITULO_BRILHANTE":"每月超过4000万广告阅览",
+      "SUBTITULO":""
+    },
+    "INFORMACAO_3":{
+      "ALT_IMAGEM":"每月超过3万leads注册",
+      "TITULO_BRILHANTE":"每月超过3万leads注册",
+      "SUBTITULO":""
+    },
+    "BOTAO_VER_PORTFOLIO_COMPLETO":"查看详细广告展集"
+  },
+  "CONTATO":{
+    "TEXTO_CLICAR":"点击",
+    "TEXTO_AZUL_SEMPRE_APARECE":"进入联系主页",
+    "TEXTO_AZUL_SOME_AO_PASSAR_MOUSE":"",
+    "TEXTO_BRANCO_SOME_AO_PASSAR_O_MOUSE":"",
+    "TEXTO_BRANCO_APARECE_AO_PASSAR_MOUSE":""
+  }
+}

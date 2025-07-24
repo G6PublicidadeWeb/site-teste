@@ -1,0 +1,104 @@
+@use "_variables.scss" as vars;
+
+nav {
+  a {
+    transition: color 0.5s ease;
+  }
+}
+
+.navbar {
+  background-color: rgba(vars.$color-black, $alpha: 0.75);
+  padding: 20px 0px;
+  .navbar-brand img {
+    width: 16rem;
+  }
+  .nav-link {
+    font-size: 18px;
+    color: vars.$color-white;
+    &.active {
+      color: vars.$color-blue;
+      font-weight: 600;
+    }
+  }
+}
+.sistema{
+  padding: 8px 0px;
+  font-size: 18px;
+  color: vars.$color-white;
+  &.active {
+    color: vars.$color-blue;
+    font-weight: 600;
+  }
+}
+
+@media (max-height: 790px) {
+  .navbar {
+    padding: 15px 0px;
+    .navbar-brand img {
+      width: 16rem;
+    }
+  }
+}
+
+.full-view {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+#main-container {
+  flex-grow: 1;
+  display: flex;
+  min-height: 310px;
+}
+
+footer {
+  position: relative;
+  width: 100%;
+  background-color: vars.$color-white;
+  .row {
+    align-items: baseline;
+    align-items: center;
+    padding-top: 15px;
+    > div {
+      margin-bottom: 15px;
+    }
+    p {
+      font-size: 12px;
+      color: vars.$color-gray;
+      margin-bottom: 0;
+    }
+    i {
+      font-size: 16px;
+      color: vars.$color-blue;
+    }
+    .logo-container {
+      img {
+        width: 16rem;
+      }
+    }
+    .contact-container {
+      p:first-child {
+        margin-bottom: 8px;
+      }
+      a {
+        display: inline-flex;
+        align-items: center;
+      }
+      .fa-whatsapp {
+        font-size: 18px;
+      }
+      #email {
+        letter-spacing: 0.7px;
+      }
+    }
+    .social-container {
+      a {
+        margin-right: 5px;
+        i {
+          font-size: 30px;
+        }
+      }
+    }
+  }
+}

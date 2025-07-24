@@ -1,0 +1,49 @@
+{
+    "HEADER_MENU":{
+      "ALT_LOGO": "Logomarca da G6",
+      "HOME": "Home",
+      "QUEM_SOMOS": "Quem somos",
+      "SERVICOS_E_PORTFOLIO": "Serviços e Portfolio",
+      "CONTATO": "Contato"
+    },
+    "FOOTER":{
+      "TODOS_OS_DIREITOS_RESERVADOS": "Todos os direitos reservados."
+    },
+    "QUEM_SOMOS":{
+      "TITULO":"Inspire. Conecte. Permaneça.",
+      "PARAGRAFO_1": "Na <b>G•Seis Publicidade,</b> acreditamos que comunicação eficaz vai além de atrair. Ela inspira. Ela transforma. Ela <b>constrói marcas com alma e propósito.</b>",
+      "PARAGRAFO_2": "<b>Desde 2011,</b> atuamos como uma <b>agência de comunicação especializada em estratégias digitais,</b> combinando inteligência criativa com posicionamento de alto impacto.",
+      "PARAGRAFO_3": "Em 2023, nos tornamos <b>a agência de marketing digital 100% brasileira a abrir uma operação oficial na China,</b> conectando marcas brasileiras e internacionais ao mercado asiático por meio de <b>redes sociais ocidentais e asiáticas,</b> como Instagram, LinkedIn, Xiǎohóngshū, WeChat, Weibo, entre outras.",
+      "PARAGRAFO_4": "Vivemos em um mundo onde as pessoas não desejam apenas consumir — elas querem <b>sentir, pertencer, se identificar.</b> Por isso, ajudamos nossos clientes a transformar propósito em presença digital significativa, construindo narrativas que geram desejo, identificação e valor de marca.",
+      "PARAGRAFO_5": "Nosso trabalho é pensado para impactar. Estratégico, emocional e culturalmente sintonizado, ele <b>não apenas comunica — conecta, ativa e gera movimento.</b>",
+      "PARAGRAFO_6": "📌 <a href=\"https://online.fliphtml5.com/kpsan/iapa/#p=44\" target=\"_blank\">Veja como nossa história</a> — de uma agência de comunicação em Santa Catarina ao pioneirismo no marketing digital brasileiro na China",
+      "PARAGRAFO_7": "📌 E também fomos reconhecidos pela revista LIDE, com menção à abertura da operação da <a href=\"https://ecrie70.com.br/sistema/conteudos/arquivo/a_66_0_1_29032023172245.pdf\" target=\"_blank\" ><b>G•Seis Publicidade na China</b>",
+      "PARAGRAFO_8": "Mais do que divulgar produtos, <b>criamos relevância real.</b> Mais do que contar histórias, <b>projetamos identidade, aspiração e presença global.</b>"
+    },
+    "SERVICOS_E_PORTFOLIO":{
+      "INFORMACAO_1":{
+        "ALT_IMAGEM":"Redes Sociais",
+        "TITULO_BRILHANTE":"251",
+        "SUBTITULO":"contas mensais"
+      },
+      "INFORMACAO_2":{
+        "ALT_IMAGEM":"Impressões",
+        "TITULO_BRILHANTE":"+ de 40 milhões",
+        "SUBTITULO":"de impressões por mês"
+      },
+      "INFORMACAO_3":{
+        "ALT_IMAGEM":"Leads",
+        "TITULO_BRILHANTE":"+ de 30k",
+        "SUBTITULO":"leads entregues por mês"
+      },
+      "BOTAO_VER_PORTFOLIO_COMPLETO":"VER PORTFOLIO COMPLETO"
+    },
+    "CONTATO":{
+      "TEXTO_CLICAR":"É só clicar!",
+      "TEXTO_AZUL_SEMPRE_APARECE":"Entre ",
+      "TEXTO_AZUL_SOME_AO_PASSAR_MOUSE":"em",
+      "TEXTO_BRANCO_SOME_AO_PASSAR_O_MOUSE":" contato",
+      "TEXTO_BRANCO_APARECE_AO_PASSAR_MOUSE":"pelo"
+    }
+  }
+  

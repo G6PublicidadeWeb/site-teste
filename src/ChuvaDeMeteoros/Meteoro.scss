@@ -1,0 +1,82 @@
+@use "../_variables.scss" as vars;
+.meteoro {
+  position: absolute;
+  display: block;
+  visibility: hidden;
+  height: 3px;
+  border-radius: 20px;
+  z-index: 10000;
+  
+}
+
+.pequeno {
+  animation: meteoro-p 0.15s linear 0s 1 normal none;
+  width: 20px;
+}
+
+.medio {
+  animation: meteoro-m 0.15s linear 0s 1 normal none;
+  width: 80px;
+}
+
+.grande {
+  animation: meteoro-g 0.15s linear 0s 1 normal none;
+  width: 280px;
+}
+
+.azul {
+  background-color: vars.$color-blue;
+}
+
+.branco {
+  background-color: vars.$color-white;
+}
+
+.laranja {
+  background-color: vars.$color-orange;
+}
+
+@keyframes meteoro-p {
+  0% {
+    visibility: visible;
+    left: 0;
+  }
+  90% {
+    visibility: visible;
+    left: calc(100% - 20px);
+  }
+  100% {
+    visibility: visible;
+    right: 0;
+  }
+}
+
+@keyframes meteoro-m {
+  0% {
+    visibility: visible;
+    left: 0;
+  }
+  90% {
+    visibility: visible;
+    left: calc(100% - 80px);
+  }
+  100% {
+    visibility: visible;
+    right: 0;
+  }
+}
+
+@keyframes meteoro-g {
+  0% {
+    visibility: visible;
+    left: 0;
+  }
+  90% {
+    visibility: visible;
+    left: calc(100% - 280px);
+  }
+  100% {
+    visibility: visible;
+    right: 0;
+  }
+}

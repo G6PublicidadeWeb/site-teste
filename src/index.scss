@@ -1,0 +1,94 @@
+@use "./_variables.scss" as vars;
+
+.bg- {
+  &black {
+    background-color: vars.$color-black;
+  }
+  &blue {
+    background-color: vars.$color-blue;
+  }
+  &white {
+    background-color: vars.$color-white;
+  }
+  &orange {
+    background-color: vars.$color-orange;
+  }
+  &gray {
+    background-color: vars.$color-gray;
+  }
+}
+
+a:focus {
+  border-bottom: 1px solid vars.$color-blue;
+  outline: none;
+}
+
+.color- {
+  &black {
+    color: vars.$color-black;
+  }
+  &blue {
+    color: vars.$color-blue;
+  }
+  &white {
+    color: vars.$color-white;
+  }
+  &orange {
+    color: vars.$color-orange;
+  }
+  &gray {
+    color: vars.$color-gray;
+  }
+}
+
+html,
+.fixed-top {
+  min-width: 320px;
+}
+
+body {
+  overflow: clip !important;
+  font-family: "TT Norms";
+  background-color: vars.$color-black;
+  letter-spacing: 0.1px;
+}
+
+a {
+  color: unset;
+  &:hover {
+    color: unset;
+    text-decoration: unset;
+  }
+  &:visited {
+    color: unset;
+    text-decoration: unset;
+  }
+}
+
+@keyframes typing {
+  from {
+    overflow: hidden;
+    white-space: nowrap;
+    width: 0;
+  }
+  to {
+    overflow: hidden;
+    white-space: nowrap;
+    width: 100%;
+  }
+}
+
+@keyframes fading {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@media only screen and (max-width:768px){
+  body {
+    overflow: auto !important;
+  }
+}

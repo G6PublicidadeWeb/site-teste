@@ -1,0 +1,69 @@
+@use "../_variables.scss" as vars;
+@use "sass:color";
+
+#i18n-wrapper {
+  $foreground-color: vars.$color-blue;
+  $text-color: vars.$color-white;
+  left: 20px;
+  bottom: 20px;
+
+  > button {
+    background: none;
+    border: none;
+    display: inline-block;
+    vertical-align: bottom;
+    padding: 5px;
+    i {
+      color: vars.$color-blue;
+      font-size: 38px;
+      vertical-align: bottom;
+    }
+    svg {
+      margin-bottom: 8px;
+      margin-left: 10px;
+      width: 18px;
+    }
+  }
+  > div {
+    position: relative;
+    border: 2px solid $foreground-color;
+    display: inline-block;
+    list-style: none;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    border-radius: 10px;
+    border-bottom-left-radius: 0px;
+    width: 150px;
+    button.change {
+      border: none;
+      text-align: center;
+      display: inline-block;
+      padding: 10px;
+      background-color: $foreground-color;
+      color: $text-color;
+      width: 100%;
+      border-radius: 3px;
+      transition: background-color 0.5s ease-out;
+      &:hover {
+        background-color: color.adjust($foreground-color, $lightness: -20%);
+      }
+      &:not(:last-of-type){
+        margin-bottom: 10px;
+      }
+    }
+    button.close{
+      background-color: $foreground-color;
+      color: $text-color;
+      position: absolute;
+      right: -14px;
+      top: -14px;
+      border-radius: 100%;
+      height: 25px;
+      width: 25px;
+      padding-left: 1px;
+      font-size: 15px;
+      opacity: 1;
+    }
+  }
+}

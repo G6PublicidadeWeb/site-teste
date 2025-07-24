@@ -1,0 +1,48 @@
+{
+  "HEADER_MENU":{
+    "ALT_LOGO": "G6 Logo",
+    "HOME": "Home",
+    "QUEM_SOMOS": "About Us",
+    "SERVICOS_E_PORTFOLIO": "Services and Portfolio",
+    "CONTATO": "Contact"
+  },
+  "FOOTER":{
+    "TODOS_OS_DIREITOS_RESERVADOS": "All rights reserved."
+  },
+  "QUEM_SOMOS":{
+      "TITULO":"Inspire. Connect. Endure.",
+      "PARAGRAFO_1": "At <b>G•Seis Publicidade,</b> we believe that effective communication is not just about attracting attention — it's about <b>inspiring action and transforming perception.</b> It's about <b>building brands with soul, clarity, and long-term relevance.</b>",
+      "PARAGRAFO_2": "<b>Founded in 2011,</b> we are a <b>Brazilian communication agency specialized in digital strategy,</b> combining creative intelligence with high-impact positioning across channels and cultures.",
+      "PARAGRAFO_3": "<b>In 2023,</b> we made history by becoming a <b> 100% Brazilian digital marketing agency to establish a formal presence in China,</b> creating bridges between Brazilian and global brands and Asian markets through both <b>Western and Chinese social media platforms,</b> including Instagram, LinkedIn, <b>Xiǎohóngshū,</b> WeChat, Weibo, and more.",
+      "PARAGRAFO_4": "We live in a world where people seek more than products — they seek <b>meaning, belonging, and identity.</b> That’s why we help brands <b>translate purpose into digital presence,</b> crafting narratives that generate connection, aspiration, and emotional resonance.",
+      "PARAGRAFO_5": "Our approach is designed to create impact. Strategic, emotionally intelligent, and culturally attuned, our work <b>goes beyond messaging — it activates audiences and moves markets.<//b>",
+      "PARAGRAFO_6": "📌 <a href=\"https://online.fliphtml5.com/kpsan/iapa/#p=44\" target=\"_blank\">Discover how our journey</a> — from a creative agency in southern Brazil to a pioneer in cross-border digital marketing.",
+      "PARAGRAFO_7": "📌 Our expansion into the Chinese market was also highlighted by <a href=\"https://ecrie70.com.br/sistema/conteudos/arquivo/a_66_0_1_29032023172245.pdf\" target=\"_blank\" >LIDE magazine",
+      "PARAGRAFO_8": "More than promoting products, <b>we build relevance.</b> More than telling stories, <b>we shape identity, aspiration, and global presence.</b>"
+    },
+  "SERVICOS_E_PORTFOLIO":{
+    "INFORMACAO_1":{
+      "ALT_IMAGEM":"Social Network",
+      "TITULO_BRILHANTE":"251",
+      "SUBTITULO":"monthly accounts"
+    },
+    "INFORMACAO_2":{
+      "ALT_IMAGEM":"Impressions",
+      "TITULO_BRILHANTE":"+ 40 millions",
+      "SUBTITULO":"monthly impressions"
+    },
+    "INFORMACAO_3":{
+      "ALT_IMAGEM":"Leads",
+      "TITULO_BRILHANTE":"+ 30k",
+      "SUBTITULO":"leads sent monthly"
+    },
+    "BOTAO_VER_PORTFOLIO_COMPLETO":"SEE FULL"
+  },
+  "CONTATO":{
+    "TEXTO_CLICAR":"Just Click!",
+    "TEXTO_AZUL_SEMPRE_APARECE":"Contact us",
+    "TEXTO_AZUL_SOME_AO_PASSAR_MOUSE":"",
+    "TEXTO_BRANCO_SOME_AO_PASSAR_O_MOUSE":"",
+    "TEXTO_BRANCO_APARECE_AO_PASSAR_MOUSE":" by"
+  }
+}

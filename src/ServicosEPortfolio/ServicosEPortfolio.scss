@@ -1,0 +1,140 @@
+@use "../_variables.scss" as vars;
+@use "sass:color";
+
+.ServicosEPortfolio {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+  .info-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+    max-width: 415px;
+
+    img {
+      width: 80px;
+      margin-right: 40px;
+    }
+    .text-wrapper-1 {
+      text-align: center;
+      margin: 0 auto;
+      h3 {
+        overflow: hidden;
+        font-size: 50px;
+        font-weight: 600;
+        margin-bottom: 0;
+        letter-spacing: 1px;
+        line-height: 65px;
+      }
+      p {
+        overflow: hidden;
+        margin-bottom: 0;
+        font-size: 24px;
+        font-weight: 400;
+        animation: typing 0.4s steps(20, end);
+      }
+    }
+  }
+  .first-div{
+    padding-left: 52px;
+  }
+
+  @media (max-width: 490px) {
+    .info-container {
+      img {
+        width: 60px;
+        margin-right: 20px;
+      }
+      .text-wrapper {
+        h3 {
+          font-size: 51px;
+          line-height: 53px;
+        }
+      }
+    }
+  }
+
+  .portfolio {
+    display: grid;
+
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 10px;
+    column-gap: 10px;
+    justify-items: end;
+    a video {
+      width: 100%;
+    }
+  }
+
+  .button {
+    background-color: vars.$color-blue;
+    color: vars.$color-white;
+    border: none;
+    border-radius: 3px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    font-size: 20px;
+    padding: 5px 0px;
+    text-align: center;
+    transition: background-color 0.3s;
+    &:hover {
+      background-color: color.adjust(vars.$color-blue, $lightness: -10%);
+    }
+  }
+
+  .flex-col-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .linear-wipe {
+    text-align: center;
+
+    background: linear-gradient(to right, #008bb2 20%, #b397d2 40%, #3a9d95 60%, #0093e8 80%);
+    background-size: 200% auto;
+
+    color: transparent;
+    background-clip: text;
+
+    animation: shine 3s linear alternate infinite, fading 0.4s steps(20, end);
+    @keyframes shine {
+      to {
+        background-position: 200% center;
+      }
+    }
+  }
+
+  .zh-Hans {
+    &-1 {
+      font-size: 43px !important;
+    }
+    &-2 {
+      font-size: 24px !important;
+    }
+    &-3 {
+      font-size: 28px !important;
+    }
+  }
+
+  @media (max-width: 490px) {
+    .zh-Hans {
+      &-1 {
+        font-size: 29px !important ;
+      }
+      &-2 {
+        font-size: 16px !important;
+      }
+      &-3 {
+        font-size: 19px !important;
+      }
+    }
+  }
+}
+@media only screen and (max-width:768px){
+  .ServicosEPortfolio .button {
+     padding: 8px !important;
+  }
+}
